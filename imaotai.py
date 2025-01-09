@@ -26,7 +26,7 @@ mt_r = 'clips_OlU6TmFRag5rCXwbNAQ/Tz1SKlN8THcecBp/'
 #res_map = json.loads(os.getenv('iMT_Products', ''))
 #if not res_map:
 #    res_map = {"10941": "贵州茅台酒（甲辰龙年）", "10942": "贵州茅台酒（甲辰龙年）x2"}
-res_map = {"10941": "贵州茅台酒（甲辰龙年）", "10942": "贵州茅台酒（甲辰龙年）x2"}
+res_map = {"11318": "53%vol 500ml贵州茅台酒（乙巳蛇年）", "11319": "53%vol 375ml×2贵州茅台酒（乙巳蛇年", "11317": "53%vol 500ml贵州茅台酒（笙乐飞天）"}
 print('拟预约商品：')
 print(res_map)
 #加密
