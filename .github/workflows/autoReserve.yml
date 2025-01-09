@@ -55,10 +55,10 @@ jobs:
             ${{ runner.os }}-pip-
 
       - name: start run
-        env:
-          PUSHPLUS_KEY: ${{ secrets.PUSHPLUS_KEY }}
-          PRIVATE_AES_KEY: ${{ secrets.PRIVATE_AES_KEY }}
-          PUSH_URL: ${{ secrets.PUSH_URL }}
+#        env:
+#          PUSHPLUS_KEY: ${{ secrets.PUSHPLUS_KEY }}
+#          PRIVATE_AES_KEY: ${{ secrets.PRIVATE_AES_KEY }}
+#          PUSH_URL: ${{ secrets.PUSH_URL }}
         run: |
           python main.py
 
