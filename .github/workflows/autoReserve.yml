@@ -10,7 +10,7 @@ on:
       - '.github/workflows/**'
   schedule:
 #    国际时间
-    - cron: '45 7 * * *'
+    - cron: '59 7 * * *'
   workflow_dispatch:
     logLevel:
       description: 'Log level'
