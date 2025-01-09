@@ -6,8 +6,6 @@ import config
 import login
 import process
 import privateCrypt
-import schedule
-import time
 def subscribe():
     DATE_FORMAT = "%m/%d/%Y %H:%M:%S %p"
     TODAY = datetime.date.today().strftime("%Y%m%d")
