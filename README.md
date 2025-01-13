@@ -43,6 +43,6 @@ python3 main.py
 ```
 
 ### 5、配置 Github actions，每日自动预约，省去自己买服务器的成本。
-- 先Fork本项目，再去自己的项目中配置`PUSHPLUS_KEY`和和`PRIVATE_AES_KEY`
+- 先Fork本项目，再去自己的项目中配置`PUSH_URL`
 
 

@@ -79,5 +79,5 @@ def subscribe():
 
 if __name__ == '__main__':
     print("now", datetime.datetime.now())
-    subscribe()
-    # process.send_msg(123, 343)
+    # subscribe()
+    process.send_msg(123, 343)
