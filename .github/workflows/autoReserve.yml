@@ -36,5 +36,6 @@ jobs:
       - name: start run
         env:
           PUSH_URL: ${{ secrets.PUSH_URL }}
+          PRIVATE_AES_KEY: ${{ secrets.PRIVATE_AES_KEY }}
         run: |
           python main.py
