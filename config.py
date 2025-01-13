@@ -18,8 +18,7 @@ ITEM_CODES = ['11317', '11318', '11319']   # 需要预约的商品
 如没有配置则不推送消息
 为了安全,这里使用的环境配置.git里面请自行百度如何添加secrets.pycharm也可以自主添加.如果你实在不会,就直接用明文吧（O.o）
 '''
-PUSH_URL = "https://api.day.app/rnMQapAVuNUXzLW3jefYHc"
-# PUSH_URL = os.environ.get("PUSH_URL")
+PUSH_URL = os.environ.get("PUSH_URL")
 
 
 '''
