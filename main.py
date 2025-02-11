@@ -75,7 +75,7 @@ def subscribe():
             logging.error(e)
 
     # 推送消息
-    process.send_msg(s_title, s_content[0:20])
+    process.send_msg(s_title, s_content[0:50])
 
 if __name__ == '__main__':
     print("now", datetime.datetime.now())
