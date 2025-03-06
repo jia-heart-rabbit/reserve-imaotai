@@ -1,5 +1,5 @@
 
-# i茅台预约工具----GitHub Actions版
+# i茅台预约工具----GitHub Actions版(修改为使用SERVER酱推送）
 
 
 ### 功能：
@@ -43,6 +43,6 @@ python3 main.py
 ```
 
 ### 5、配置 Github actions，每日自动预约，省去自己买服务器的成本。
-- 先Fork本项目，再去自己的项目中配置`PUSH_URL`
+- 先Fork本项目，再去自己的项目中配置`PRIVATE_AES_KEY`和`SCKEY`
 
 
