@@ -255,6 +255,26 @@ def send_msg(title, content):
 def hide_mobile_number(mobile: str) -> str:
     masked_mobile = mobile[:3] + '*' * 4 + mobile[-4:]
     return masked_mobile
+    
+# Serverjiang
+def send_server_chan(sckey, title, desp):
+    """
+    server酱推送
+    :param sckey: server酱推送的key
+    :param title: 标题
+    :param desp: 内容
+    :return:
+    """
+    if sckey:
+        url = f"https://sctapi.ftqq.com/{sckey}.send"
+        data = {"title": title, "desp": desp}
+        response = requests.post(url, data=data)
+        if response.json()['data']['error'] == 'SUCCESS':
+            logging.info('Server酱 Turbo版推送成功')
+        else:
+            logging.info('Server酱 Turbo版推送失败')
+    else:
+        logging.warning("server酱 KEY 没有配置,不推送消息")
 
 # 核心代码，执行预约
 def reservation(params: dict, mobile: str):
