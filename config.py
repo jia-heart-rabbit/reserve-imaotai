@@ -19,6 +19,7 @@ ITEM_CODES = ['11317', '11318', '11319']   # 需要预约的商品
 为了安全,这里使用的环境配置.git里面请自行百度如何添加secrets.pycharm也可以自主添加.如果你实在不会,就直接用明文吧（O.o）
 '''
 PUSH_URL = os.environ.get("PUSH_URL")
+#SCKEY = os.environ.get('SCKEY')
 SCKEY = 'SCT271942TCQCG2xQkpb8F0mXklKaN8lAX'
 
 '''
@@ -47,6 +48,7 @@ key用了SHA-256转化,所以这里可以配置任意字符串,不用遵守AES�
 ps:本来是写了判断是否配置密钥，可以自由选择明文保存的方式。但是还是为了安全性，限制了必须使用AES加密。哪怕是明文密钥。
 '''
 PRIVATE_AES_KEY = 'mokun'
+#PRIVATE_AES_KEY = os.environ.get("PRIVATE_AES_KEY")
 
 
 '''
